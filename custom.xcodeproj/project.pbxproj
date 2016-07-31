@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F290B6FE1D4E1CDF0034940A /* V_EmitterAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F290B6FD1D4E1CDF0034940A /* V_EmitterAnimation.m */; };
+		F290B7001D4E2DD70034940A /* 1468394042557.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F290B6FF1D4E2DD70034940A /* 1468394042557.jpg */; };
 		F2BA68CD1D4DAB2E003F88FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68CC1D4DAB2E003F88FD /* main.m */; };
 		F2BA68D01D4DAB2E003F88FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68CF1D4DAB2E003F88FD /* AppDelegate.m */; };
 		F2BA68D31D4DAB2E003F88FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68D21D4DAB2E003F88FD /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		F2BA68DB1D4DAB2E003F88FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BA68D91D4DAB2E003F88FD /* LaunchScreen.storyboard */; };
 		F2BA68E61D4DAB2E003F88FD /* customTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68E51D4DAB2E003F88FD /* customTests.m */; };
 		F2BA68F11D4DAB2E003F88FD /* customUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68F01D4DAB2E003F88FD /* customUITests.m */; };
+		F2BA69071D4DAE67003F88FD /* UIColor+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA69061D4DAE67003F88FD /* UIColor+ChangeColor.m */; };
+		F2F4B8081D4DC67000B5106E /* Snow.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F4B8071D4DC67000B5106E /* Snow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F290B6FC1D4E1CDF0034940A /* V_EmitterAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V_EmitterAnimation.h; sourceTree = "<group>"; };
+		F290B6FD1D4E1CDF0034940A /* V_EmitterAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V_EmitterAnimation.m; sourceTree = "<group>"; };
+		F290B6FF1D4E2DD70034940A /* 1468394042557.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1468394042557.jpg; path = ../../../Downloads/1468394042557.jpg; sourceTree = "<group>"; };
 		F2BA68C81D4DAB2E003F88FD /* custom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BA68CC1D4DAB2E003F88FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2BA68CE1D4DAB2E003F88FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 		F2BA68EC1D4DAB2E003F88FD /* customUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BA68F01D4DAB2E003F88FD /* customUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customUITests.m; sourceTree = "<group>"; };
 		F2BA68F21D4DAB2E003F88FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BA69051D4DAE67003F88FD /* UIColor+ChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChangeColor.h"; path = "Category/UIColor+ChangeColor.h"; sourceTree = "<group>"; };
+		F2BA69061D4DAE67003F88FD /* UIColor+ChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChangeColor.m"; path = "Category/UIColor+ChangeColor.m"; sourceTree = "<group>"; };
+		F2F4B8071D4DC67000B5106E /* Snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +111,13 @@
 		F2BA68CA1D4DAB2E003F88FD /* custom */ = {
 			isa = PBXGroup;
 			children = (
+				F2BA68FE1D4DAB35003F88FD /* New Group */,
 				F2BA68CE1D4DAB2E003F88FD /* AppDelegate.h */,
 				F2BA68CF1D4DAB2E003F88FD /* AppDelegate.m */,
 				F2BA68D11D4DAB2E003F88FD /* ViewController.h */,
 				F2BA68D21D4DAB2E003F88FD /* ViewController.m */,
+				F2F4B8071D4DC67000B5106E /* Snow.png */,
+				F290B6FF1D4E2DD70034940A /* 1468394042557.jpg */,
 				F2BA68D41D4DAB2E003F88FD /* Main.storyboard */,
 				F2BA68D71D4DAB2E003F88FD /* Assets.xcassets */,
 				F2BA68D91D4DAB2E003F88FD /* LaunchScreen.storyboard */,
@@ -138,6 +151,17 @@
 				F2BA68F21D4DAB2E003F88FD /* Info.plist */,
 			);
 			path = customUITests;
+			sourceTree = "<group>";
+		};
+		F2BA68FE1D4DAB35003F88FD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA69051D4DAE67003F88FD /* UIColor+ChangeColor.h */,
+				F2BA69061D4DAE67003F88FD /* UIColor+ChangeColor.m */,
+				F290B6FC1D4E1CDF0034940A /* V_EmitterAnimation.h */,
+				F290B6FD1D4E1CDF0034940A /* V_EmitterAnimation.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +269,8 @@
 			files = (
 				F2BA68DB1D4DAB2E003F88FD /* LaunchScreen.storyboard in Resources */,
 				F2BA68D81D4DAB2E003F88FD /* Assets.xcassets in Resources */,
+				F2F4B8081D4DC67000B5106E /* Snow.png in Resources */,
+				F290B7001D4E2DD70034940A /* 1468394042557.jpg in Resources */,
 				F2BA68D61D4DAB2E003F88FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +299,8 @@
 				F2BA68D31D4DAB2E003F88FD /* ViewController.m in Sources */,
 				F2BA68D01D4DAB2E003F88FD /* AppDelegate.m in Sources */,
 				F2BA68CD1D4DAB2E003F88FD /* main.m in Sources */,
+				F290B6FE1D4E1CDF0034940A /* V_EmitterAnimation.m in Sources */,
+				F2BA69071D4DAE67003F88FD /* UIColor+ChangeColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +526,7 @@
 				F2BA68F71D4DAB2E003F88FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2BA68F81D4DAB2E003F88FD /* Build configuration list for PBXNativeTarget "customTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +535,7 @@
 				F2BA68FA1D4DAB2E003F88FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2BA68FB1D4DAB2E003F88FD /* Build configuration list for PBXNativeTarget "customUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +544,7 @@
 				F2BA68FD1D4DAB2E003F88FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

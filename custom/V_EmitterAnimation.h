@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  V_EmitterAnimation.h
 //  custom
 //
 //  Created by 陈东芝 on 16/7/31.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIColor+ChangeColor.h"
-#import "V_EmitterAnimation.h"
-@interface ViewController : UIViewController
 
+@interface V_EmitterAnimation : UIView
 
 @end
-
