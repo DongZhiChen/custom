@@ -16,10 +16,29 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perm_scan_wifi_64px_1182111_easyicon.net.png" translatesAutoresizingMaskIntoConstraints="NO" id="fPG-AK-fAu">
+                                <rect key="frame" x="52" y="81" width="83" height="84"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPQ-BP-94l">
+                                <rect key="frame" x="52" y="224" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="BTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="btd-7f-QxX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                     </view>
+                    <connections>
+                        <outlet property="IV" destination="fPG-AK-fAu" id="j4p-Fy-6I9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="428" y="429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="perm_scan_wifi_64px_1182111_easyicon.net.png" width="64" height="64"/>
+    </resources>
 </document>

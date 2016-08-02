@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F27237951D5070ED009F2D34 /* V_Aimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F27237941D5070ED009F2D34 /* V_Aimation.m */; };
+		F27237971D508BE7009F2D34 /* perm_scan_wifi_64px_1182111_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = F27237961D508BE7009F2D34 /* perm_scan_wifi_64px_1182111_easyicon.net.png */; };
+		F272379A1D508C30009F2D34 /* UIImageView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = F27237991D508C30009F2D34 /* UIImageView+Animation.m */; };
+		F27237A01D509A8B009F2D34 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F272379F1D509A8B009F2D34 /* ViewController2.m */; };
 		F290B6FE1D4E1CDF0034940A /* V_EmitterAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F290B6FD1D4E1CDF0034940A /* V_EmitterAnimation.m */; };
 		F290B7001D4E2DD70034940A /* 1468394042557.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F290B6FF1D4E2DD70034940A /* 1468394042557.jpg */; };
+		F29701431D50C53C0052639F /* VCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F29701421D50C53C0052639F /* VCAnimation.m */; };
 		F2BA68CD1D4DAB2E003F88FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68CC1D4DAB2E003F88FD /* main.m */; };
 		F2BA68D01D4DAB2E003F88FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68CF1D4DAB2E003F88FD /* AppDelegate.m */; };
 		F2BA68D31D4DAB2E003F88FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA68D21D4DAB2E003F88FD /* ViewController.m */; };
@@ -39,9 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F27237931D5070ED009F2D34 /* V_Aimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V_Aimation.h; sourceTree = "<group>"; };
+		F27237941D5070ED009F2D34 /* V_Aimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V_Aimation.m; sourceTree = "<group>"; };
+		F27237961D508BE7009F2D34 /* perm_scan_wifi_64px_1182111_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = perm_scan_wifi_64px_1182111_easyicon.net.png; path = ../../../Downloads/perm_scan_wifi_64px_1182111_easyicon.net.png; sourceTree = "<group>"; };
+		F27237981D508C30009F2D34 /* UIImageView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Animation.h"; sourceTree = "<group>"; };
+		F27237991D508C30009F2D34 /* UIImageView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Animation.m"; sourceTree = "<group>"; };
+		F272379E1D509A8B009F2D34 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		F272379F1D509A8B009F2D34 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		F290B6FC1D4E1CDF0034940A /* V_EmitterAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V_EmitterAnimation.h; sourceTree = "<group>"; };
 		F290B6FD1D4E1CDF0034940A /* V_EmitterAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V_EmitterAnimation.m; sourceTree = "<group>"; };
 		F290B6FF1D4E2DD70034940A /* 1468394042557.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1468394042557.jpg; path = ../../../Downloads/1468394042557.jpg; sourceTree = "<group>"; };
+		F29701411D50C53C0052639F /* VCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimation.h; sourceTree = "<group>"; };
+		F29701421D50C53C0052639F /* VCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimation.m; sourceTree = "<group>"; };
 		F2BA68C81D4DAB2E003F88FD /* custom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BA68CC1D4DAB2E003F88FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2BA68CE1D4DAB2E003F88FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,12 +131,15 @@
 				F2BA68D11D4DAB2E003F88FD /* ViewController.h */,
 				F2BA68D21D4DAB2E003F88FD /* ViewController.m */,
 				F2F4B8071D4DC67000B5106E /* Snow.png */,
+				F27237961D508BE7009F2D34 /* perm_scan_wifi_64px_1182111_easyicon.net.png */,
 				F290B6FF1D4E2DD70034940A /* 1468394042557.jpg */,
 				F2BA68D41D4DAB2E003F88FD /* Main.storyboard */,
 				F2BA68D71D4DAB2E003F88FD /* Assets.xcassets */,
 				F2BA68D91D4DAB2E003F88FD /* LaunchScreen.storyboard */,
 				F2BA68DC1D4DAB2E003F88FD /* Info.plist */,
 				F2BA68CB1D4DAB2E003F88FD /* Supporting Files */,
+				F272379E1D509A8B009F2D34 /* ViewController2.h */,
+				F272379F1D509A8B009F2D34 /* ViewController2.m */,
 			);
 			path = custom;
 			sourceTree = "<group>";
@@ -160,6 +177,12 @@
 				F2BA69061D4DAE67003F88FD /* UIColor+ChangeColor.m */,
 				F290B6FC1D4E1CDF0034940A /* V_EmitterAnimation.h */,
 				F290B6FD1D4E1CDF0034940A /* V_EmitterAnimation.m */,
+				F27237931D5070ED009F2D34 /* V_Aimation.h */,
+				F27237941D5070ED009F2D34 /* V_Aimation.m */,
+				F27237981D508C30009F2D34 /* UIImageView+Animation.h */,
+				F27237991D508C30009F2D34 /* UIImageView+Animation.m */,
+				F29701411D50C53C0052639F /* VCAnimation.h */,
+				F29701421D50C53C0052639F /* VCAnimation.m */,
 			);
 			name = "New Group";
 			sourceTree = "<group>";
@@ -270,6 +293,7 @@
 				F2BA68DB1D4DAB2E003F88FD /* LaunchScreen.storyboard in Resources */,
 				F2BA68D81D4DAB2E003F88FD /* Assets.xcassets in Resources */,
 				F2F4B8081D4DC67000B5106E /* Snow.png in Resources */,
+				F27237971D508BE7009F2D34 /* perm_scan_wifi_64px_1182111_easyicon.net.png in Resources */,
 				F290B7001D4E2DD70034940A /* 1468394042557.jpg in Resources */,
 				F2BA68D61D4DAB2E003F88FD /* Main.storyboard in Resources */,
 			);
@@ -298,7 +322,11 @@
 			files = (
 				F2BA68D31D4DAB2E003F88FD /* ViewController.m in Sources */,
 				F2BA68D01D4DAB2E003F88FD /* AppDelegate.m in Sources */,
+				F27237951D5070ED009F2D34 /* V_Aimation.m in Sources */,
 				F2BA68CD1D4DAB2E003F88FD /* main.m in Sources */,
+				F272379A1D508C30009F2D34 /* UIImageView+Animation.m in Sources */,
+				F29701431D50C53C0052639F /* VCAnimation.m in Sources */,
+				F27237A01D509A8B009F2D34 /* ViewController2.m in Sources */,
 				F290B6FE1D4E1CDF0034940A /* V_EmitterAnimation.m in Sources */,
 				F2BA69071D4DAE67003F88FD /* UIColor+ChangeColor.m in Sources */,
 			);

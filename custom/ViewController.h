@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "UIColor+ChangeColor.h"
-#import "V_EmitterAnimation.h"
-@interface ViewController : UIViewController
 
+#import "V_Aimation.h"
+#import "UIImageView+Animation.h"
+#import "ViewController2.h"
+#import "VCAnimation.h"
+@interface ViewController : UIViewController <UIViewControllerTransitioningDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *IV;
+- (IBAction)BTN:(id)sender;
 
 @end
 
